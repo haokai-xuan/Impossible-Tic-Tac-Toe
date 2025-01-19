@@ -1,5 +1,5 @@
 # Impossible Tic Tac Toe game using minimax algorithm
-## Read more on how the game works [here](url)
+## Read more on how the game works [here](https://drive.google.com/file/d/1cmRh8N2lVjJqoJe8XSG_ozmRLQoBZamI/view?usp=sharing)
 
 ### How to run the game on mac:
 1. Download **ImpossibleTicTacToe.zip** in repo

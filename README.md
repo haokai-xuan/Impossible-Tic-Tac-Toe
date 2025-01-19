@@ -7,7 +7,7 @@
 3. Open terminal and go to the root dir of the game, it should be called **Tic-Tac-Toe**
    - Run the following commands. This grants access to execute the files
    - ```
-     chmod -x run.sh
-     chmod -x ImpossibleTicTacToe.command
+     chmod +x run.sh
+     chmod +x ImpossibleTicTacToe.command
      ```
 4. Double click on **ImpossibleTicTacToe.command** run the game

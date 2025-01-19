@@ -23,7 +23,7 @@ player_turn = random.choice([True, False])
 current_screen = "menu"
 FPS = 30
 clock = pygame.time.Clock()
-ai_delay_time = 1 # Number of seconds to wait after player's move
+ai_delay_time = 0.75 # Number of seconds to wait after player's move
 curr_ai_delay_time = 0
 
 class Button:
@@ -276,7 +276,7 @@ def draw_game():
                 if (r, c) in actions(state):
                     state = result(state, (r, c))
                     player_turn = not player_turn
-                    print_board(state)
+                    # print_board(state)
 
     if not player_turn and curr_ai_delay_time >= ai_delay_time:
         curr_ai_delay_time = 0
@@ -288,13 +288,14 @@ def draw_game():
                 state = result(state, move)
 
         player_turn = not player_turn
-        print_board(state)
+        # print_board(state)
     
     draw_state()
 
     if terminal(state):
         current_screen = "end"
-        
+
+'''  
 def print_board(state):
     print("-----------")
     for i in range(3):
@@ -302,6 +303,7 @@ def print_board(state):
             print(f"[{state[i][j] if state[i][j] is not None else " "}]", end=" ")
         print("\n")
     print("-----------")
+'''
 
 while True:
     clock.tick(FPS)

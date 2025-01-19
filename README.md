@@ -1,5 +1,10 @@
 # Impossible Tic Tac Toe game using minimax algorithm
-## Read more on how the game works [here](https://drive.google.com/file/d/1cmRh8N2lVjJqoJe8XSG_ozmRLQoBZamI/view?usp=sharing)
+## Read more on how the game works [here](url)
+
+### How to run the game on windows:
+1. Download the installer [here](https://drive.google.com/file/d/1cmRh8N2lVjJqoJe8XSG_ozmRLQoBZamI/view?usp=sharing)
+2. Run the installer
+3. Click on the file **Impossible Tic Tac Toe.exe** to run the file. Don't file location relative to each other!
 
 ### How to run the game on mac:
 1. Download **ImpossibleTicTacToe.zip** in repo
